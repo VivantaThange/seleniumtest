@@ -15,7 +15,7 @@ public class DropDownAndScroll {
 		d.manage().deleteAllCookies();
 		d.get("https://www.guru99.com/");
 		Thread.sleep(3000);
-		
+		//This is commented code
 		JavascriptExecutor j=((JavascriptExecutor) d);
 		j.executeScript("scroll(0.2000)");
 		WebElement cource = d.findElement(By.xpath("//i[@class='fa fa-check-square-o']"));
